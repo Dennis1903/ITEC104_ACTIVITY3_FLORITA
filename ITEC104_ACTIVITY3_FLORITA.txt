@@ -1,0 +1,28 @@
+using System;
+
+namespace ITEC104_ACTIVITY3_FLORITA
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string[] emails = {"dennis@gmail.com",
+                               "florita@gmail.com",
+                               "reg.realeza@gmail.com"};
+            string[] usernames = {"dennis",
+                                  "florita",
+                                  "rreginarose"};
+            string[] passwords = {"12345",
+                                  "54321",
+                                  "Yeyel"};
+            
+            Console.Write("Index    : ");
+            int index = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Email    : " + emails[index]);
+            Console.WriteLine("Username : " + usernames[index]);
+            Console.WriteLine("Password : " + passwords[index]);
+        }
+    }
+}
